@@ -1,0 +1,102 @@
+[
+    {
+        "nombre": "atari2600",
+        "generacion": 2,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/l5Exbd1IWQk?si=DE63X_h25GZ3AO36' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "ataripong",
+        "generacion": 1,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/09qHnr1DMwA?si=rlDrkyYXfT8Fta5O' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "c64",
+        "generacion": 3,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/sVDXgzQ81Qs?si=gL96YRPTpwp-qLlz' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "dreamcast",
+        "generacion": 6,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/SVPnESQ8HE4?si=FXttF6nT3jL4lJkU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "gameboy",
+        "generacion": 4,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/AQuL1za9U2w?si=vGxZJNIDZnVm5A67' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "gameboyadvance",
+        "generacion": 6,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/2-R-F-A48FI?si=IaLiNLLoU2rp5qim' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "gamewatch",
+        "generacion": 2,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/21x7kA4uRmA?si=31lD1_AxSX1ncPxm' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "megadrive",
+        "generacion": 4,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/5a_EIpzv5gk?si=3U-1LqoaXjkVjgF0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "n64",
+        "generacion": 5,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/WGIBNNC3mQY?si=sV_y5O9o5-6cEKeW' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "nintendo",
+        "generacion": 3,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/qccjeJMPSnc?si=VR62fpI9r4KJ_wBX' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "nintendods",
+        "generacion": 7,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/6nLc-IE8bUE?si=Z-Kr0kOBQb9rVUHR' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "ps1",
+        "generacion": 5,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/IqTQbyItd9M?si=KMODorM9aI8BI3Xh' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "ps2",
+        "generacion": 6,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/lAtgMNdWWZY?si=Q1r5uQW4FGs3kUTP' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "ps4",
+        "generacion": 8,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/NCE0hgEAnfM?si=EurO8JTRIhEKSNGY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "supernintendo",
+        "generacion": 4,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/aH2USrPWKvg?si=_F0pbzngolC-YxCx' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "switch",
+        "generacion": 9,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/0DdmX8emMlg?si=o4CkzvIxSMKRbZNE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "wii",
+        "generacion": 7,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/YkGdwB0dp4E?si=gAEzG_uCDRAsp5Y9' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "wiiu",
+        "generacion": 8,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/oXvYEf5k7jE?si=6kfUe-Gmu40bhDXw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "xbox",
+        "generacion": 6,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/MJ5Gs10JFNk?si=mHD8z6npXlR7JsEX' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "nombre": "xbox360",
+        "generacion": 7,
+        "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/TvW4H7jctSA?si=RjwAPqWSP1OLTtGC' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    }
+]
