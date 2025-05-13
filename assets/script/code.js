@@ -5,7 +5,7 @@ del archivo json y se le aplican los métodos de eliminar clase, añadir clase, 
 
 $(document).ready(function () {
     $('li').click(async function (event) {
-        $(this).animate({ fontSize: "1.5vw" }, 600); // Agregar animación al hacer click en elementos del aside
+        $(this).animate({ fontSize: "1.3vw" }, 500); // Agregar animación al hacer click en elementos del aside
         setTimeout(() => {
             $(this).removeAttr('style');
         }, 1000);
@@ -21,28 +21,35 @@ $(document).ready(function () {
                     $('#' + consola.nombre).next().text($('#' + consola.nombre).attr('alt')); // Añadir nombre al párrafo hermano
                     $('#' + consola.nombre).click(function () { // Añadir eventListener a las consolas de la generación seleccionada
                         $('#modal').html(consola.video); // Incluir iframe dentro del modal
-                        $('#modal').addClass('mostrarVideo'); // Añadir animación al modal
-                        setTimeout(() => { // Despues de la animación, que se quede visible
+                        $('#modal').addClass('mostrarVideo'); // Añadir animación al modal y al botón
+                        $('#botonSalir').addClass('mostrarVideo');
+                        setTimeout(() => { // Despues de la animación, que se queden visibles
                             $('#modal').css({ 'visibility': 'visible', 'opacity': '1' });
+                            $('#botonSalir').css({ 'visibility': 'visible', 'opacity': '1' });
                         }, 1000);
                         $('#modal') // Agregar párrafo con texto para indicar al usuario
                             .append($("<p></p>")
-                                .text("PRESIONA ESCAPE PARA SALIR")
+                                .text("Haz click en la X para salir")
                                 .css({
                                     'color': 'white',
-                                    'font-size': '3rem',
+                                    'font-size': '2rem',
                                     'top': '70vh',
                                     'heigh': '10rem',
                                     'line-height': '8rem'
                                 }));
-                        document.addEventListener("keydown", (e) => { // Añadir eventListener para que se pueda pulsar ESC
+                            /*document.addEventListener("keydown", (e) => { // Añadir eventListener para que se pueda pulsar ESC
                             // e.preventDefault();
                             if (e.code == 'Escape') {
                                 $('#modal').empty(true).css({ 'visibility': 'hidden', 'opacity': '0' }).removeClass('mostrarVideo');
+                                $('#botonSalir').css({ 'visibility': 'hidden', 'opacity': '0' }).removeClass('mostrarVideo');
                             }
+                        }) */
+                        $('#botonSalir').click(function () { // Funcionalidad del botón de salir
+                            $('#modal').empty(true).css({ 'visibility': 'hidden', 'opacity': '0' }).removeClass('mostrarVideo');
+                            $('#botonSalir').css({ 'visibility': 'hidden', 'opacity': '0' }).removeClass('mostrarVideo');
                         })
                     });
-                } else {
+                } else { // Si no coincide la generación de la consola
                     $('#' + consola.nombre)
                         .unbind('click')
                         .removeClass('seleccionada')
